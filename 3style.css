@@ -1,5 +1,5 @@
 body {
-  background: url("../img/imagencalmmode.jpeg") center/cover fixed no-repeat;
+  background: url("..imagencalmmode.jpeg") center/cover fixed no-repeat;
   position: relative;
 }
 
@@ -13,3 +13,4 @@ body::before {
   background: rgba(0,0,0,0.25);
   z-index: -1;
 }
+
