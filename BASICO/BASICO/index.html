@@ -1,0 +1,176 @@
+<!--Inicio Doc-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina Web</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/3style.css">
+  <center>
+  <style>
+ /* Estilos solo para la galería de productos */
+ .productos {
+    display: flex;
+    width: 600px;
+    height: 430px;
+    margin-top: auto;
+    }
+.productos img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+.productos img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);}  
+  </style>
+</head>
+<body>
+
+  <!-- Encabezado principal -->
+<header>
+  <div class="navbar">
+    <div class="logo">
+      <img src="img/logo.png" width="100" alt="Logo Calmmode">
+    </div>
+    <nav>
+  <ul>
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="pages/nosotros.html">Nosotros</a></li>
+    <li><a href="pages/servicios.html">Servicios</a></li>
+    <li><a href="pages/contacto.html">Contacto</a></li>
+
+  </ul>
+</nav>
+
+  </div>
+</header>
+  <!-- Contenido principal -->
+  <main>
+    <!-- Sección de presentación -->
+    <section id="inicio" class="presentacion">
+      <div class="contido-presentacion">
+      <h2>Bienvenido a <span>Calmmode</span></h2>  
+      <p>Nosotros somos una empresa que busca concientizar a las personas
+         sobre los temas de salud mental a partir de información verídica,
+         ofreciéndoles datos, curiosidades y costumbres que pueden ayudar
+         a mantener un equilibrio emocional y psicológico tanto a corto 
+         como a largo plazo. Nuestro objetivo es brindar herramientas 
+         prácticas y accesibles que contribuyan al bienestar integral de 
+         cada individuo, derribando mitos y fomentando hábitos saludables 
+         en la vida cotidiana. Creemos firmemente que hablar de salud mental 
+         no debe ser un tabú, sino una conversación abierta y constante que 
+         permita prevenir, comprender y acompañar los diferentes procesos que 
+         atraviesan las personas. Por eso, trabajamos en generar contenido 
+         educativo, dinámico y confiable que motive a la reflexión, la empatía
+         y el autocuidado, buscando siempre impactar positivamente en la calidad
+         de vida de quienes nos siguen y confían en nosotros.</p>
+         <a href="#servicios" button>Conoce nuestros servicios</button></a>
+        </div>
+         <div class="imagen-presentacion">
+          <img src="img/logo.png" width="300" alt="Logo Calmmode"> 
+         </div> 
+   </div>
+    </section>
+ 
+    <!-- Sección sobre el equipo o la misión -->
+     <!------------------------------------------------------------------------------------------------------------------------->
+      <section id="nosotros">
+      <h2 class="Sobre-nosotros">Sobre Nosotros</h2>
+      <div class="contenedor-nosotros">
+      <div class="card-nosotros">
+      <article>
+        <h3>Nuestra Historia</h3>
+        <p>CalmMode nació en 2024 a partir de un interés genuino por la salud
+           mental. Para nosotros, no es solo un tema de estudio: es una preocupación
+            real por el bienestar de los jóvenes, un grupo especialmente vulnerable
+             frente a la ansiedad, la depresión y otros desafíos emocionales.
+          Aunque no somos profesionales de la psicología, creemos que también desde 
+          la cercanía y la empatía se puede aportar. Por eso, nuestro proyecto se
+           diferencia en algo clave: ofrecemos un trato de tú a tú, en un espacio 
+           seguro y anónimo, donde cada persona puede expresarse sin miedo a juicios
+            ni a que su historia se haga pública. Nuestro objetivo es crecer y evolucionar.
+             En cinco años, aspiramos a consolidarnos como una empresa influyente
+              en la comunidad de la salud mental, ampliando nuestro equipo e integrando 
+              profesionales de la psicología para fortalecer lo que hoy es un espacio
+               de apoyo humano, cercano y confiable.
+            .</p>
+        </div>
+
+      </article>
+     </div>
+      <div class="contenedor-nosotros">
+      <div class="card-nosotros">
+        <h3>Mision</h3>
+        <p>Nuestra misión en CalmMode es acompañar a jóvenes en su camino hacia 
+          el bienestar emocional, brindándoles orientación, recursos prácticos y un
+         espacio de escucha seguro.No pretendemos reemplazar a profesionales de la
+           salud mental, ni ofrecer soluciones clínicas; nuestra labor consiste en
+           impulsar la reflexión, la autogestión y la construcción de hábitos saludables
+           mediante datos confiables, ejercicios, charlas y testimonios.
+         Creemos que, con el apoyo adecuado, cada persona puede encontrar dentro de sí
+         misma la fuerza para superar sus obstáculos.</p>
+        </div>
+        
+        <div class="card-nosotros">
+        <h3>Vision</h3>
+        <p>Ser reconocidos en Colombia como la plataforma líder en bienestar emocional,
+         alcanzando a muchos usuarios activos que mejoren su calidad de vida, y expandiéndonos
+          regionalmente en los próximos cinco años. Donde cada uno encuentre su lugar,espacio,
+        y descanso para su salud mental y mejore su forma de vida. </p>
+        </div>
+</div>
+
+      
+    <!-- Sección de servicios o productos -->
+    <section id="servicios">
+    <h2 class="titulo-servicios">Nuestros Servicios</h2>
+    <div class="contenedor-servicios">
+      <div class="card-servicio">
+      <img src="img/Paquete.png" alt="Paquete" width="250">  
+        <h3>Servicio 1</h3>
+        <p>
+          Paquete básico gratuito
+          Chat de escucha activa
+          Biblioteca de artículos cortos con datos, tips y curiosidades sobre salud mental.
+          Test de autoevaluación sencillos (estrés, ansiedad, hábitos de sueño).</p>
+      </div>
+      <div class="card-servicio">
+        <img src="img/mental.png" alt="avisos" width="250">
+        <h3>Servicio 2</h3>
+        <p>Acceso a avisos sobre talleres en vivo por ejemplo manejo de la ansiedad, meditación, productividad
+          Comunidad segura foro privado moderado, grupos de apoyo temáticos.
+          Recursos exclusivos podcasts, ebooks y rutinas de bienestar.</p>
+      </div>
+      <div class="card-servicio">
+          <img src="img/servicio3.png" alt="comunidad y apoyo" width="250">
+          <h3>Comunidad y apoyo</h3>
+       <p>Servicio 3:
+        Conecta con otras personas en un entorno seguro. Participa en grupos de apoyo temáticos,
+         comparte experiencias y encuentra acompañamiento emocional dentro de una comunidad moderada
+          y respetuosa.</p>
+        </div>
+    </section>
+  </main>
+<!--Productos-->
+  <section class="productos">
+    <img src="img/jugueteantiestres.webp">
+    <img src="img/botellatermica.jpeg">
+    <img src="img/pelucheantiestres.avif">
+    <img src="img/peluchegolpeable.jpeg">
+
+  </section>
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2025 CALMMODE - Todos los derechos reservados</p>
+    <p>Contacto: <a href="mailto:calmmode733@gmail.com">calmmode733@gmail.com</a></p>
+  </footer>
+
+</body>
+<script src="js/script.js"></script>
+</html>
